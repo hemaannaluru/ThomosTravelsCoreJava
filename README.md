@@ -9,6 +9,7 @@ Driver Class: This is a data model class that represents a driver within the Tho
 Travel Class: This class contains methods to manipulate and retrieve information about drivers:
 
 isCarDriver(Driver): Checks if a driver is in the "Car" category.
+
 RetrieveByDriverId(ArrayList<Driver>, driverID): Searches for a driver by their ID and returns a formatted string with their details.
 RetrieveCountOfDriver(ArrayList<Driver>, String): Counts how many drivers belong to a specific category.
 RetrieveDriver(ArrayList<Driver>, String): Retrieves a list of drivers who belong to a specified category.
